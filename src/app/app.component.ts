@@ -7,4 +7,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'actividad4';
+  vehiculos:any = [
+    {marca: 'Ferrari'},
+    {marca: 'Lamborghini'},
+    {marca: 'Suzuki'},
+    {marca: 'Volvo'},
+  ]
 }
