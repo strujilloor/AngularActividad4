@@ -8,9 +8,9 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'actividad4';
   vehiculos:any = [
-    {marca: 'Ferrari'},
-    {marca: 'Lamborghini'},
-    {marca: 'Suzuki'},
-    {marca: 'Volvo'},
+    {active: true, marca: 'Ferrari'},
+    {active: true, marca: 'Lamborghini'},
+    {active: false, marca: 'Suzuki'},
+    {active: true, marca: 'Volvo'},
   ]
 }
